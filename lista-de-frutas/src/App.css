@@ -6,7 +6,7 @@
   background: rgb(216, 219, 233);
   color: black;
   width: 240px;
-  height: 230px;
+  height: 220px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -33,9 +33,7 @@ h1 {
   font-weight: bold;
   border-radius: 7px;
   border-style: none;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

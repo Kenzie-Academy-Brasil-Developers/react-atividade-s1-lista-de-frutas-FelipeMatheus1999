@@ -34,8 +34,8 @@ function App() {
         <div className="container"> 
           <TotalPrice />
           <ul>{fruitsMap}</ul>
-          <button onClick={filterRedFruits} className="button" >Show fruits red</button>
         </div>
+          <button onClick={filterRedFruits} className="button" >Show fruits red</button>
       </div>
     </div>
   );
